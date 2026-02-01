@@ -30,6 +30,7 @@
       [
         "expo-splash-screen",
         {
+          "root": "./src/app/_layout.tsx",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
