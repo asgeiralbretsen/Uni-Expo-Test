@@ -2,7 +2,7 @@ import Expo
 import React
 import ReactAppDependencyProvider
 
-@UIApplicationMain
+@main
 public class AppDelegate: ExpoAppDelegate {
   var window: UIWindow?
 
@@ -19,7 +19,6 @@ public class AppDelegate: ExpoAppDelegate {
 
     reactNativeDelegate = delegate
     reactNativeFactory = factory
-    bindReactNativeFactory(factory)
 
 #if os(iOS) || os(tvOS)
     window = UIWindow(frame: UIScreen.main.bounds)
