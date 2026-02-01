@@ -10,7 +10,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		30E362AEE6E6BE65CD336973 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 72E6A0FD43D85B43659825EF /* PrivacyInfo.xcprivacy */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		7298891D2F2F7AD00077679B /* RCTNativeBattery.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7298891C2F2F7AD00077679B /* RCTNativeBattery.mm */; };
+		729889202F2F7FB50077679B /* RCTNativeBattery.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7298891F2F2F7FB50077679B /* RCTNativeBattery.mm */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 		D25286B7E1CE68D1F60810AE /* libPods-UniExpoTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 595194BDF7920E97D3FB64EA /* libPods-UniExpoTest.a */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
@@ -24,8 +24,8 @@
 		204CE928B4444268922F3640 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-UniExpoTest/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		36C1610EB194FA10C35FB0E7 /* Pods-UniExpoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniExpoTest.release.xcconfig"; path = "Target Support Files/Pods-UniExpoTest/Pods-UniExpoTest.release.xcconfig"; sourceTree = "<group>"; };
 		595194BDF7920E97D3FB64EA /* libPods-UniExpoTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UniExpoTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7298891B2F2F7AD00077679B /* RCTNativeBattery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNativeBattery.h; sourceTree = "<group>"; };
-		7298891C2F2F7AD00077679B /* RCTNativeBattery.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTNativeBattery.mm; sourceTree = "<group>"; };
+		7298891E2F2F7FB50077679B /* RCTNativeBattery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTNativeBattery.h; path = UniExpoTest/NativeBattery/RCTNativeBattery.h; sourceTree = "<group>"; };
+		7298891F2F2F7FB50077679B /* RCTNativeBattery.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = RCTNativeBattery.mm; path = UniExpoTest/NativeBattery/RCTNativeBattery.mm; sourceTree = "<group>"; };
 		72E6A0FD43D85B43659825EF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = UniExpoTest/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = UniExpoTest/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				7298891B2F2F7AD00077679B /* RCTNativeBattery.h */,
-				7298891C2F2F7AD00077679B /* RCTNativeBattery.mm */,
+				7298891E2F2F7FB50077679B /* RCTNativeBattery.h */,
+				7298891F2F2F7FB50077679B /* RCTNativeBattery.mm */,
 				13B07FAE1A68108700A75B9A /* UniExpoTest */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -329,7 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7298891D2F2F7AD00077679B /* RCTNativeBattery.mm in Sources */,
+				729889202F2F7FB50077679B /* RCTNativeBattery.mm in Sources */,
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
 				FCAB32F82925FDA36B0964EA /* ExpoModulesProvider.swift in Sources */,
 			);
