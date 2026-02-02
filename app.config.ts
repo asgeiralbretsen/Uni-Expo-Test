@@ -4,6 +4,8 @@ import path from "node:path";
 
 type BrandId = "unimicro" | "dnb";
 
+const brand: BrandId = "unimicro"
+
 function loadBrand(brand: BrandId) {
   const dir = path.join(__dirname, "brands", brand);
   const meta = JSON.parse(fs.readFileSync(path.join(dir, "brand.json"), "utf-8"));
@@ -14,7 +16,6 @@ function loadBrand(brand: BrandId) {
 }
 
 export default ({ config }: ConfigContext): ExpoConfig => {
-  const brand = (process.env.APP_BRAND as BrandId) ?? "unimicro";
   const b = loadBrand(brand);
 
   return {
