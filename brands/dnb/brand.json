@@ -1,0 +1,11 @@
+{
+  "id": "dnb",
+  "displayName": "DNB Demo",
+  "slug": "dnb-demo",
+  "iosBundleId": "no.dnb.demo",
+  "androidPackage": "no.dnb.demo",
+  "theme": { 
+    "colors": { "primary": "#0B1220", "background": "#2F80ED" },
+    "name": "DNB Demo"
+  }
+}

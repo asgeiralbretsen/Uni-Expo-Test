@@ -27,6 +27,7 @@
     "expo-symbols": "~55.0.2",
     "expo-system-ui": "~55.0.2",
     "expo-web-browser": "~55.0.2",
+    "native-battery": "file:./modules/native-battery",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "react-native": "0.83.1",

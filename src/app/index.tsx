@@ -15,6 +15,7 @@ export default function Index() {
       <Text style={{ fontSize: 24, fontWeight: "bold" }}>Greenfield Demo</Text>
       <Link href="/dev_tools" >Dev Tools</Link>
       <Link href="/new_architecture" >New Architecture</Link>
+      <Link href="/white_labeling" >White Labeling</Link>
     </View>
   );
 }

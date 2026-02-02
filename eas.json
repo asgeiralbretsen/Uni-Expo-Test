@@ -1,0 +1,20 @@
+{
+  "build": {
+    "unimicro-dev": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": { "APP_BRAND": "unimicro" }
+    },
+    "dnb-dev": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": { "APP_BRAND": "dnb" }
+    },
+    "unimicro-prod": {
+      "env": { "APP_BRAND": "unimicro" }
+    },
+    "dnb-prod": {
+      "env": { "APP_BRAND": "dnb" }
+    }
+  }
+}

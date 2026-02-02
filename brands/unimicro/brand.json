@@ -1,0 +1,11 @@
+{
+  "id": "unimicro",
+  "displayName": "Unimicro Demo",
+  "slug": "unimicro-demo",
+  "iosBundleId": "no.unimicro.demo",
+  "androidPackage": "no.unimicro.demo",
+  "theme": { 
+    "colors": { "primary": "#2F80ED", "background": "#0B1220" },
+    "name": "Unimicro Demo"
+  }
+}

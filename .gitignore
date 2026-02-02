@@ -42,7 +42,4 @@ app-example
 /android
 
 # iOS - track source, ignore builds
-/ios/build/
-/ios/Pods/
-/ios/.xcode.env.local
-/ios/Podfile.lock
+/ios

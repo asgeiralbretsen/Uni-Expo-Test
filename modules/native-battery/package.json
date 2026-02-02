@@ -1,0 +1,12 @@
+{
+  "name": "native-battery",
+  "version": "1.0.0",
+  "description": "Native Battery Turbo Module",
+  "main": "index.js",
+  "private": true,
+  "codegenConfig": {
+    "name": "NativeBatterySpec",
+    "type": "modules",
+    "jsSrcsDir": "../../specs"
+  }
+}
