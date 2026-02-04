@@ -16,6 +16,7 @@ export default function Index() {
       <Link href="/dev_tools" >Dev Tools</Link>
       <Link href="/new_architecture" >New Architecture</Link>
       <Link href="/white_labeling" >White Labeling</Link>
+      <Link href="/testing" id="testing" >Testing</Link>
     </View>
   );
 }

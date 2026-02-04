@@ -1,0 +1,18 @@
+appId: no.unimicro.demo
+---
+- launchApp
+- tapOn: "testing"
+- tapOn: 
+    id: "textInput"
+- inputText: "Wrong Password"
+- tapOn: 
+    id: "continue"
+- assertNotVisible: "rett_passord"
+- tapOn: 
+    id: "textInput"
+- eraseText
+- inputText: "SecretPassword"
+- tapOn: 
+    id: "continue"
+- assertVisible: 
+    id: "rett_passord"
